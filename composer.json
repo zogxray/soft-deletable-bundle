@@ -1,0 +1,55 @@
+{
+    "name": "zogxray/soft-deletable-bundle",
+    "description": "Soft Delete bundle for Symfony with Doctrine",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Victor Pavlov",
+            "email": "zogxray@gmail.com"
+        }
+    ],
+    "keywords": [
+        "soft",
+        "delete",
+        "symfony",
+        "doctrine"
+    ],
+    "homepage": "https://github.com/zogxray/soft-deletable-bundle",
+    "require": {
+        "php": "^7.2",
+        "doctrine/orm": "^2.5",
+        "doctrine/doctrine-bundle": "^1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zogxray\\SoftDeletableBundle\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zogxray\\SoftDeletableBundle\\Tests\\": "Tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    },
+    "scripts": {
+        "build": [
+            "composer install"
+        ],
+        "post-install-cmd": [
+
+        ],
+        "post-update-cmd": [
+
+        ]
+    },
+    "minimum-stability": "stable"
+}
