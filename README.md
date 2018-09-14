@@ -1,5 +1,11 @@
 # Soft Deletable Bundle
 
+## Install
+
+```bash
+composer require zogxray/soft-deletable-bundle
+```
+
 ## Config with defaults
 
 ```yaml
